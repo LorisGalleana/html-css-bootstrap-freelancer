@@ -1,0 +1,23 @@
+.ms_bg_charcoal {
+    background-color: rgb(44, 62, 80) ;
+}
+.ms_bg_mint {
+    background-color: rgb(26, 188, 156) ;
+}
+.ms_bg_blue {
+    background-color: rgb(58, 84, 109) ;
+    
+}
+
+.ms_height_100{
+    min-height: 100px;
+}
+.ms_height_200{
+    min-height: 200px;
+}
+.ms_height_300{
+    min-height: 300px;
+}
+.ms_height_400{
+    min-height: 400px;
+}
