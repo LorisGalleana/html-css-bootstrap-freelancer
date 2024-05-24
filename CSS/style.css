@@ -21,3 +21,9 @@
 .ms_height_400{
     min-height: 400px;
 }
+
+.star-line {
+    width: 20%;
+    height: 3px;
+    background-color: white;
+}
