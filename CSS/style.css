@@ -5,8 +5,10 @@
     background-color: rgb(26, 188, 156) ;
 }
 .ms_bg_blue {
-    background-color: rgb(58, 84, 109) ;
-    
+    background-color: rgb(58, 84, 109) ; 
+}
+.ms_bg_persian_green {
+    color: rgb(36, 157, 141) ;
 }
 
 .ms_height_100{
@@ -22,8 +24,94 @@
     min-height: 400px;
 }
 
-.star-line {
+.ms_image_dimension-1 {
+    width: 10%;
+}
+.ms_image_dimension-1_5{
+    width: 15%;
+}
+.ms_image_dimension-2 {
     width: 20%;
-    height: 3px;
-    background-color: white;
+}
+.ms_image_dimension-3 {
+    width: 30%;
+}
+.ms_image_dimension-4 {
+    width: 40%;
+}
+.ms_image_dimension-5 {
+    width: 50%;
+}
+
+
+.ms_width-1 {
+    width: 10%;
+}
+.ms_width-2 {
+    width: 20%;
+}
+.ms_width-3 {
+    width: 30%;
+}
+.ms_width-4 {
+    width: 40%;
+}
+.ms_width-5 {
+    width: 50%;
+}
+.ms_width-6 {
+    width: 60%;
+    
+}
+.ms_width-7 {
+    width: 70%;
+}
+.ms_width-8 {
+    width: 80%;
+    margin: 0 auto;
+}
+.ms_width-9 {
+    width: 90%;
+}
+.ms_width-10 {
+    width: 100%;
+}
+
+.ms_icon_dimension {
+    width: 50px;
+    height: 50px;
+}
+
+
+.ms_font_size {
+    font-size: 12px;
+}
+.nav {
+    display: none;
+}
+
+@media all and (min-width: 768px) { 
+    .hide {
+        display: none;
+    }
+    .nav {
+        display: flex;
+    }
+    .ms_width-md-7 {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .ms_width-md-9 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .ms_image_dimension-md-3 {
+        width: 30%;
+    }
+}
+@media all and (min-width: 992px) {
+    .ms_image_dimension-lg-2 {
+        width: 20%;
+    }
+    
 }

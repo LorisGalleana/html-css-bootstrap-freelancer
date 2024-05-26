@@ -3,67 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- MY CSS -->
     <link rel="stylesheet" href="CSS/style.css">
-    <title>Document</title>
+    <title>Start Bootstrap</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <!-- upper-bar -->
-        <div class="row ms_bg_charcoal ms_height_100 align-items-center justify-content-around">
+        <div class="row ms_bg_charcoal py-4 align-items-center justify-content-around">
             <div class="col-5">
                 <div class="box">
                     <div class="logo fs-3 text-white">START BOOTSTRAP</div>
                 </div>
             </div>
-            <div class="col-2 offset-4 ">
-                <div class="box ">
-                    <div class="hamburger-menu border border-white border-2 rounded fs-4 justify-content-around d-flex mx-3 text-white" >
+            <div class="col-2 offset-4 col-md-5 offset-md-1 ">
+                <div class="box hide ">
+                    <div class="hamburger-menu border border-white border-2 rounded fs-4 justify-content-around d-flex mx-3 text-white " >
                         <i class="bi bi-list"></i>
                     </div>
+                    
+                </div>
+                <div class="nav justify-content-end">
+                    <ul class="list-unstyled d-flex justify-content-end ">
+                        <li><a href="#" class="text-decoration-none text-white">PORTFOLIO</a></li>
+                        <li><a href="#" class="px-3 text-decoration-none text-white">ABOUT</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">CONTACT</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <!-- jumbotron -->
-        <div class="row ms_bg_mint ms_height_400 justify-content-around">
-            <div class="col-10"><!-- colonna 10 per centrare -->
-                <!-- row con colonna da 6 per l'avatar -->
-                <!-- row con colonna da 10 per il nome -->
-                <!-- row con colonna da 8 per la stella -->
-                <!-- row con colonna da 11 per i ruoli -->
+        <div class="row ms_bg_mint  justify-content-around align-items-center py-5">
+            <div class="col-10 ">
+                <div class="box text-center text-white ">
+                    <img src="img/avatar.svg" class="ms_image_dimension-5 ms_image_dimension-md-3 ">
+                    <div class="fs-1 fw-bold">START BOOTSTRAP</div>
+                    <img src="img/Group 1.png"  alt="" class="ms_image_dimension-1_5">
+                    <div class="fs-6">GRAPHIC ARTIST- WEB DESIGNER - ILLUSTRATOR</div>
+                </div>
             </div>
         </div>
         <!-- portfolio -->
-        <div class="row ms_height_400">
-            <div class="col-12"></div>
-            <div class="col-12 col-md-6 col-lg-4"></div>
-            <div class="col-12 col-md-6 col-lg-4"></div>
-            <div class="col-12 col-md-6 col-lg-4"></div>
-            <div class="col-12 col-md-6 col-lg-4"></div>
-            <div class="col-12 col-md-6 col-lg-4"></div>
-            <div class="col-12 col-md-6 col-lg-4"></div>
+        <div class="row py-5 gy-3 px-md-3 px-lg-5 mx-lg-5">
+            <div class="col-12 ">
+                <div class="box text-center">
+                    <div class="fw-bold fs-3 fs-lg-1">PORTFOLIO</div>
+                    <img src="img/image 1.png" class="ms_image_dimension-1_5 py-3" alt="">
+                </div>
+            </div>
+            <!-- cabin -->
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="box ">
+                    <img src="img/cabin.png" class="ms_width-10 rounded-4" alt="">
+                </div>
+            </div>
+            <!-- cake -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="box">
+                    <img src="img/cake.png" class="ms_width-10 rounded-4" alt="">
+                </div>
+            </div>
+            <!-- circus -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="box">
+                    <img src="img/circus.png" class="ms_width-10 rounded-4" alt="">
+                </div>
+            </div>
+            <!-- game -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="box">
+                    <img src="img/game.png" class="ms_width-10 rounded-4" alt="">
+                </div>
+            </div>
+            <!-- safe -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="box">
+                    <img src="img/safe.png" class="ms_width-10 rounded-4" alt="">
+                </div>
+            </div>
+            <!-- submarine -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="box">
+                    <img src="img/submarine.png" class="ms_width-10 rounded-4" alt="">
+                </div>
+            </div>
         </div>
         <!-- about -->
-        <div class="row ms_bg_mint ms_height_300">
-            <div class="col-12"></div>
-            <div class="col-12 col-md-6"></div>
-            <div class="col-12 col-md-6"></div>
+        <div class="row ms_bg_mint  text-center py-4 gy-2 justify-content-center text-white ">
+            <div class="col-12">
+                <div class="box">
+                    <div class="fw-bold fs-4">ABOUT</div>
+                    <img src="img/Group 1.png" alt="" class="ms_image_dimension-1_5">
+                </div>
+            </div>
+            <!-- prima colonna -->
+            <div class="col-6 col-md-4 ">
+                <div class="box text-start">
+                    <div>Freelancer is a free bootstrap theme create by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well an optional LESS stylesheets for easy customization</div>
+                </div>
+            </div>
+            <div class="col-12 hide"></div> <!-- intermezzo -->
+            <!-- seconda colonna -->
+            <div class="col-6 col-md-4 ">
+                <div class="box text-start">
+                    <div>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artis looking to share your projects, this template is the perfect starting point!</div>
+                </div>
+            </div>
+            <div class="col-12 "></div><!-- intermezzo -->
+            <!-- download -->
+            <div class="col-3  pt-3">
+                <a href="#" class="box border rounded-2 py-1 px-2 text-white text-decoration-none">
+                    <i class="fa-solid fa-download me-2"></i>Download
+                </a>
+            </div>
         </div>
         <!-- contact me -->
-        <div class="row ms_height_400">
-            <div class="col-12"></div>
-            <div class="col-12"></div>
+        <div class="row ms_height_400 text-center py-4 gy-2">
+            <div class="col-12">
+                <div class="box">
+                    <div class="fw-bold fs-3">CONTACT ME</div>
+                    <img src="img/image 1.png" alt="" class="ms_image_dimension-1_5">
+                </div>
+            </div>
+            <div class="col-12 ">
+                <div class="box text-center d-flex justify-content-center">
+                    <div class="ms_bg_charcoal ms_height_300 ms_width-6"></div>
+                </div>
+            </div>
         </div>
         <!-- location/social/moreinfo -->
-        <div class="row ms_bg_blue ms_height_200">
-            <div class="col-12 col-md-4"></div>
-            <div class="col-12 col-md-4"></div>
-            <div class="col-12 col-md-4"></div>
+        <div class="row ms_bg_blue text-white text-center py-3 gy-2 align-items-center px-md-4 px-lg-5 justify-content-center">
+            <!-- location -->
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="box">
+                    <div>LOCATION</div>
+                    <div>2215 John Daniel Drive Clark, MO 54243</div>
+                </div>
+            </div>
+            <!-- icone social -->
+            <div class="col-12 col-md-4 col-lg-3 py-3">
+                <div class="box">
+                    <div class="div py-2">AROUND THE WEB</div>
+                    <div class="social-box d-flex text-center justify-content-center">
+                        <i class="fa-brands fa-facebook-f border rounded-circle p-3 me-2 ms_icon_dimension"></i>
+                        <i class="fa-brands fa-google-plus-g border rounded-circle p-3 me-2 ms_icon_dimension"></i>
+                        <i class="fa-brands fa-twitter border rounded-circle p-3 me-2 ms_icon_dimension"></i>
+                        <i class="fa-brands fa-linkedin-in border rounded-circle p-3 me-2 ms_icon_dimension"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 py-3 ">
+                <div class="box ">
+                    <div>ABOUT FREELANCER</div>
+                    <div>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="text-decoration-none ms_bg_persian_green">Start Bootstrap</a></div>
+                </div>
+            </div>
         </div>
         <!-- footer privacy -->
-        <div class="row ms_bg_charcoal ms_height_100">
-            <div class="col-12"></div>
+        <div class="row ms_bg_charcoal text-center text-white py-5">
+            <div class="col-12 ">
+                <div class="box  ">
+                    <div>Copyright <span class="ms_font_size align-text-top"><i class="bi bi-c-circle "></i></span> Your Website 2019</div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
