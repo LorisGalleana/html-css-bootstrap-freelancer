@@ -89,6 +89,32 @@
 .nav {
     display: none;
 }
+.box {
+    position: relative;
+}
+.black-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.7);
+    position: absolute;
+    align-items: center;
+    display: none;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+}
+.box:hover .black-box {
+    display: flex;
+    color: white;
+}
+.ms_no_border {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+}
 
 @media all and (min-width: 768px) { 
     .hide {
